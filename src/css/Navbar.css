@@ -27,7 +27,7 @@
     display: inline-block;
     font-size: 22px;
     color: black;
-    padding: 7vh 0px 0px 8%;
+    padding: 7vh 0px 0px 100px;
   }
   
   .nav > .nav-btn {
@@ -53,14 +53,14 @@
   }
 
   .button > a {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
     display: inline-block;
     text-decoration: none;
     color: black;
   }
 
   .green{
-    background-color: #64ffb5;
+    background-color: #ffeba4;
   }
   
   @media (max-width:800px) {

@@ -10,18 +10,25 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: Inter-Light;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 300;
+}
+
 .row{
     position: relative;
     z-index: 2;
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 0%;
 }
 
 .column {
     position: inherit;
     z-index: 5;
     float: left;
-    height: 70vh;
+    height: 50vh;
 }
 
 .left{
@@ -29,7 +36,7 @@
 }
 
 .punchline{
-    margin-top: 20vh;
+    margin-top: 30%;
     margin-bottom: 0;
     font-family: Inter;
     font-size: 58px;
@@ -44,7 +51,7 @@
 }
 
 .buttona{
-    background-color: #64ffb5;
+    background-color: #ffeba4;
     border-radius: 5px;
     width: 120px;
     padding: 10px 0px 10px 0px;
@@ -65,18 +72,52 @@
 }
 
 .illustration{
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     margin-top: 10vh;
     margin-left: 20px;
 }
 
-footer{
-    position: relative;
-    width: 100vw;
-    z-index: -1;
-    margin-top: -1000px;
+.footer{
+    width: 100%;
+    height: auto;
 }
+
+.extra{
+    margin-top: -17px;
+    width: 100%;
+    height: 15vh;
+    background-color: #ffeba4;
+}
+
+.scroll-text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Inter-Regular;
+}
+
+.scroll-indicator{
+    display: block;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    animation: levitate 2s ease-in-out infinite;
+}
+
+@keyframes levitate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 
 @media screen and (max-width: 700px) {
     .left {

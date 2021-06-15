@@ -1,6 +1,7 @@
 import './css/Landing.css'
 import Footer from './assets/footer.png'
 import Illustration from './assets/Illustration.png'
+import Scroll from './assets/scroll-indicator.png'
 
 function LandingPage() {
     return (
@@ -16,7 +17,12 @@ function LandingPage() {
                     <img className="illustration" src={Illustration} alt="Illustration"></img>                
                 </div>
             </div>
-            <img className="footer" src={Footer}></img>
+            <div><img className="footer" src={Footer}></img></div>
+            
+            <div className="extra">
+                <p className="scroll-text">Scroll for more</p>
+                <img className="scroll-indicator" src={Scroll} alt="scroll"></img>
+            </div>
         </div>
     )
 }

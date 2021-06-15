@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
 import Landing from './LandingPage'
+import AboutUs from './AboutUs'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
