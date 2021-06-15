@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'Inter';
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    padding: 7vh 0px 0px 8%;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 14px;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+  .button {
+    background-color: white;
+    display: inline-block;
+    margin-right: 5vw;
+    margin-top: 50px;
+    border-radius: 7px;
+  }
+
+  .button > a {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+
+  .green{
+    background-color: #64ffb5;
+  }
+  
+  @media (max-width:800px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 8%;
+      top: 7vh;
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: white;
+    }
+
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid black;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      padding-left: 30px;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 400;
+}
+
+.row{
+    position: relative;
+    z-index: 2;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.column {
+    position: inherit;
+    z-index: 5;
+    float: left;
+    height: 70vh;
+}
+
+.left{
+    width: 55%;
+}
+
+.punchline{
+    margin-top: 20vh;
+    margin-bottom: 0;
+    font-family: Inter;
+    font-size: 58px;
+}
+
+.subheading{
+    margin-top: 20px;
+    font-family: Inter-Regular;
+    font-size: 15px;
+    line-height: 25px;
+    width: 90%;
+}
+
+.buttona{
+    background-color: #64ffb5;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: black;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.row > .left > a {
+    text-decoration: none;
+}
+
+.right {
+    width: 45%;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.illustration{
+    max-width: 500px;
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 20px;
+}
+
+footer{
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+    margin-top: -1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .left {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+
+    .right{
+        background-color: black;
+
+        visibility: hidden;
+    }
+  }
