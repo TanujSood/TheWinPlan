@@ -10,7 +10,7 @@ function LandingPage() {
                 <div class="column left">
                     <h1 className="punchline">The Science of Election</h1>
                     <p className="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                    <a href="#"><div className="buttona">Learn More</div></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><div className="buttona">Learn More</div></a>
                 </div>
 
                 <div class="column right">

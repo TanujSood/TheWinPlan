@@ -21,7 +21,7 @@
     z-index: 2;
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
 
 .column {
@@ -51,7 +51,7 @@
 }
 
 .buttona{
-    background-color: #ffeba4;
+    background-color: #64FFB5;
     border-radius: 5px;
     width: 120px;
     padding: 10px 0px 10px 0px;
@@ -87,7 +87,7 @@
     margin-top: -17px;
     width: 100%;
     height: 15vh;
-    background-color: #ffeba4;
+    background-color: #B9FFDD;
 }
 
 .scroll-text{

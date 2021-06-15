@@ -1,4 +1,17 @@
 .aboutus{
-    background-color: teal;
-    height: 10vh;
+    background-color: #B9FFDD;
+    height: 70vh;
+}
+
+.aboutus > h1 {
+    margin-top: 0%;
+}
+
+.headline {
+    text-align: center;
+}
+
+.footer2{
+    width: 100%;
+    height: auto;
 }
