@@ -2,3 +2,18 @@
     margin-top: 0%;
     text-align: center;
 }
+
+.row1{
+    position: relative;
+    height: 80vh;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+
+.column1 {
+    float: left;
+    width: 33.33%;
+  }

@@ -15,3 +15,35 @@
     width: 100%;
     height: auto;
 }
+
+.row2{
+    background-color: brown;
+    display: flex;
+    position: relative;
+    height: 60vh;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+.column2 {
+    background-color: cornflowerblue;
+    position: inherit;
+    float: left;
+    height: 60vh;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.left2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.right2{
+    width: 55%;
+}

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Inter-Light;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 300;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+  }
+  
+  .card {
+    border-radius: 20px;
+  }
+
+  .circle{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .card-head {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vw;
+    width: 19vw;
+    background: #B9FFDD;
+    border-radius: 100%;
+  }
+
+  .card_img{
+      height: 11vw;
+  }
+  
+  .product-title {
+    padding: 25px 0 0 0;
+    text-align: center;
+    display: block;
+    font-family: Inter-Bold;
+    font-size: 28px;
+  }
+
+  .product-caption {
+    display: block;
+    font-family: Inter-Light;
+    text-align: center;
+    padding: 17px 0;
+    line-height: 24px;
+    font-size: 14px;
+  }
