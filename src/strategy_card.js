@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './css/strategy_card.css'
 
 class Card extends React.Component {
@@ -18,8 +18,8 @@ class Card extends React.Component {
                            {this.props.title}
                   </span>
                   <span className="product-caption">
-                           {this.props.description}
-                        </span>
+                     <ReadMore>{this.props.description}</ReadMore>
+                  </span>
                   
                   </div>
                </div>
@@ -30,3 +30,19 @@ class Card extends React.Component {
    }
 }
 export default Card;
+
+const ReadMore = ({ children }) => {
+   const text = children;
+   const [isReadMore, setIsReadMore] = useState(true);
+   const toggleReadMore = () => {
+     setIsReadMore(!isReadMore);
+   };
+   return (
+     <p className="text">
+       {isReadMore ? text.slice(0, 380) : text}
+       <span onClick={toggleReadMore} className="read-more">
+         {isReadMore ? " ...Read more" : " Show less"}
+       </span>
+     </p>
+   );
+ };

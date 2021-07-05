@@ -13,6 +13,7 @@ ReactDOM.render(
       <Landing />
       <AboutUs />
       <Strategy />
+      <AboutUs />
     </div>
   </React.StrictMode>,
   document.getElementById('root')

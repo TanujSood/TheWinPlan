@@ -15,13 +15,14 @@
     src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
     font-weight: 300;
 }
-  
+
   .container {
     display: flex;
     justify-content: center;
-    width: 80%;
-    height: 500px;
+    width: 90%;
+    height: auto;
     margin: 30px auto;
+    margin-bottom: 40px;
   }
   
   .card {
@@ -60,7 +61,11 @@
     display: block;
     font-family: Inter-Light;
     text-align: center;
-    padding: 17px 0;
+    padding: 10px 0;
     line-height: 24px;
     font-size: 14px;
+  }
+
+  .read-more{
+    font-family: Inter;
   }

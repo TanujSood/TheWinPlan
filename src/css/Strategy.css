@@ -1,15 +1,37 @@
+@font-face {
+    font-family: Inter-Light;
+    src: url(../fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 350;
+}
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    overflow: hidden;
+}
+
 .strategy > h1 {
     margin-top: 0%;
     text-align: center;
 }
 
+.strategy-description{
+    font-family: Inter-Light;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
 .row1{
     position: relative;
-    height: 80vh;
+    min-height: 100px;
+    overflow: hidden;
     margin-top: 30px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 0;
 }
 
 
