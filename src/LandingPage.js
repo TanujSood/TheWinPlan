@@ -17,11 +17,9 @@ function LandingPage() {
                     <img className="illustration" src={Illustration} alt="Illustration"></img>                
                 </div>
             </div>
-            <div><img className="footer" src={Footer}></img></div>
-            
             <div className="extra">
-                <p className="scroll-text">Scroll for more</p>
-                <img className="scroll-indicator" src={Scroll} alt="scroll"></img>
+                    <p className="scroll-text">Scroll for more</p>
+                    <img className="scroll-indicator" src={Scroll} alt="scroll"></img>
             </div>
         </div>
     )

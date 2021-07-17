@@ -4,7 +4,7 @@ import test from './assets/strategy1.png'
 
 function AboutUs() {
     return (
-        <div className="one">
+        <div>
         <div className="aboutus">
             <h1 className="headline">Who we are?</h1>
 

@@ -1,10 +1,6 @@
 .aboutus{
-    background-color: #B9FFDD;
+    margin-top: 10px;
     height: 70vh;
-}
-
-.aboutus > h1 {
-    margin-top: 0%;
 }
 
 .headline {
